@@ -154,7 +154,6 @@
     border-radius: 40px;
     margin: 20px;
     margin-top: 40px;
-
   }
   
   .car {
@@ -277,6 +276,11 @@
       padding: 20px;
     }
 
+    iframe {
+      width: 560px;
+      height: 315px;
+    }
+
     .view-mode {
       color: rgb(0, 0, 0);
       background-color: white;
@@ -302,5 +306,5 @@
 
     .footer-text {
       font-size: 25px;
-    }
+   }
   }
