@@ -153,6 +153,7 @@
     border: 2px solid black;
     border-radius: 40px;
     margin: 20px;
+    margin-top: 40px;
 
   }
   
@@ -196,7 +197,7 @@
     }
 
     .lambo-logo {
-      width: 150px;
+      width: 175px;
       height: 100px;
     }
 
