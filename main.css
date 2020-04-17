@@ -16,7 +16,6 @@
   
   .logo {
     width: 125px;
-    height: 125px;
     border: 2px solid black;
     border-radius: 50%;
     margin-top: 10px;
@@ -28,8 +27,8 @@
   }
   
   .lambo-logo {
-    width: 145px;
-    height: 80px;
+    width: 100px;
+    height: 75px;
     border-radius: 20px;
     padding: 10px;
   }
@@ -38,8 +37,8 @@
     font-family: 'Merriweather', serif;
     color: rgb(255, 255, 255);
     text-shadow: 0px 0px 5px rgb(0, 0, 255);
-    font-size: 15px;
-    line-height: 50px;
+    font-size: 10px;
+    line-height: 65px;
   }
 
 /*Navigation Bar CSS code*/
@@ -58,8 +57,8 @@
   .view-mode {
     color: rgb(0, 0, 0);
     background-color: white;
-    font-size: 8px;
-    width: 25%;
+    font-size: 10px;
+    width: 40%;
     height: 90%;
     border-radius: 40px;
   }
@@ -67,6 +66,7 @@
 /*Signup Form CSS code*/
   .signup-title {
     text-align: center;
+    font-size: 15px;
   }
 
   form {
@@ -89,9 +89,9 @@
     border-radius: 40px;
     width: 90%;
     max-width: 400px;
-    height: 210px;
-    padding: 20px;
-    font-size: 25px;
+    height: 95%;
+    padding: 15px;
+    font-size: 15px;
     font-weight: bold;
     margin-right: auto;
     margin-left: auto;
@@ -101,16 +101,16 @@
 
   input[type="text"], [type="email"] {
     width: 100%;
-    font-size: 15px;
-    height: 30px;
+    font-size: 10px;
+    height: 20px;
     padding-left: 5px;
   }
 
   button[type="submit"] {
     width: 100%;
-    height: 40px;
+    height: 25px;
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     border: 2px solid black;
     border-radius: 40px;
@@ -122,6 +122,7 @@
   .cars {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   
   .car-name {
@@ -165,9 +166,8 @@
 /*Footer CSS code*/
   footer {
     background-color: rgb(30, 30, 30);
-    height: 75px;
+    height: 50px;
     width: 100%;
-    position: fixed;
     bottom: 0;
     border: 2px solid black;
     display: flex;
@@ -179,11 +179,13 @@
     color: white;
     margin-top: 0;
     font-family: 'Merriweather', serif;
+    font-size: 15px;
   }
   
   .social-icons {
     display: flex;
     margin-left: 20px;
+    width: 25px;
   }
 
 /*Code for larger screens*/
@@ -191,12 +193,63 @@
     .title {
       font-size: 30px;
     }
-    .cars {
-      display: flex;
-      flex-direction: row;          
-      justify-content: space-around;
-      flex-wrap: wrap;
-      padding: 20px;
+
+    .lambo-logo {
+      width: 150px;
+      height: 100px;
+    }
+
+    .signup-title {
+      text-align: center;
+      font-size: 30px;
+    }
+
+    form {
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      max-width: 500px;
+      border: 2px solid black;
+      border-radius: 40px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-top: 10px;
+      background-color: rgb(0, 0, 150);
+      color: rgb(200, 200, 200);
+    }
+  
+    fieldset {
+      border: 2px solid black;
+      border-radius: 40px;
+      width: 90%;
+      max-width: 400px;
+      padding: 15px;
+      font-size: 25px;
+      font-weight: bold;
+      margin-right: auto;
+      margin-left: auto;
+      background-color: rgb(200, 200, 200);
+      color: black;
+    }
+  
+    input[type="text"], [type="email"] {
+      width: 100%;
+      font-size: 20px;
+      height: 30px;
+      padding-left: 5px;
+    }
+
+    button[type="submit"] {
+      width: 100%;
+      height: 40px;
+      margin-top: 10px;
+      font-size: 25px;
+      font-weight: bold;
+      border: 2px solid black;
+      border-radius: 40px;
+      background-color: rgb(0, 0, 150);
+      color: rgb(200, 200, 200);
     }
 
     .nav-links:hover {
@@ -213,6 +266,14 @@
       transition: .5s;
     }
 
+    .cars {
+      display: flex;
+      flex-direction: row;          
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
     .view-mode {
       color: rgb(0, 0, 0);
       background-color: white;
@@ -222,6 +283,23 @@
       min-width: 250px;
       height: 80%;
       border-radius: 40px;
+    }
+
+    footer {
+      background-color: rgb(30, 30, 30);
+      height: 75px;
+      width: 100%;
+      position: fixed;
+      bottom: 0;
+      border: 2px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .social-icons {
+      display: flex;
+      margin-left: 20px;
     }
 
   }
