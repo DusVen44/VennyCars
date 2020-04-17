@@ -31,7 +31,7 @@
   }
   
   .lambo-logo {
-    width: 100px;
+    width: 125px;
     height: 75px;
     border-radius: 20px;
     padding: 10px;
@@ -41,7 +41,7 @@
     font-family: 'Merriweather', serif;
     color: rgb(255, 255, 255);
     text-shadow: 0px 0px 5px rgb(0, 0, 255);
-    font-size: 10px;
+    font-size: 20px;
     line-height: 65px;
   }
 
@@ -61,7 +61,7 @@
   .view-mode {
     color: rgb(0, 0, 0);
     background-color: white;
-    font-size: 10px;
+    font-size: 18px;
     width: 40%;
     height: 90%;
     border-radius: 40px;
