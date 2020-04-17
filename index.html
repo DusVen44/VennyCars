@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Venny's Cars</title>
+	<link href="main.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!--Below is the logo and title for the website-->
+	<header class="header">
+		<img src="Images\VennyDolphin.jpg" alt="Venny with dolphin" class="logo">
+      <div class="under-logo">
+      <img src="Images/lambo-logo-reverse.png" alt="outline of car" class="lambo-logo">     
+      <h1 class="title">Venny's Cars</h1>
+      <img src="Images/lambo-logo.png" alt="reverse outline" class="lambo-logo">
+      </div>
+    </header>
+<!--Below is the Navigation Bar-->
+    <nav class="navbar">
+      <div class="nav-links"><a href:"#">Link</a></div>
+      <div class="nav-links"><a href:"#">2nd Link</a></div>
+      <div class="nav-links"><a href:"#">3rd Link</a></div>
+    </nav>
+<!--Here is the signup form-->
+<main>
+    <form class="signup-form" action="newsletter.html" method="POST">
+      <h1 class="signup-title">Sign Up for our Newsletter!</h1>
+      <fieldset class="name-email-input">
+        <div>
+          <label for="firstname">First Name:</label>
+          <input type="text" id="firstname" name="firstname" placeholder="John" required>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="John@123.com" required>
+        </div>
+<!--Signup Button-->
+        <div class="button">
+        <button type="submit" id="button">Sign Up!</button>
+        </div>
+      </fieldset>
+    </form>
+<!--Below is our section for the cars-->
+  <section class="cars">
+  <!--Porsche 911 GT2 RS-->
+    <div class="car-display">
+      <h1 class="car-name">Porsche 911 GT2 RS</h1>
+      <img src="Images\gt2rs.jpg" class="car gt2rs" alt="Porshe 911 GT2 RS">
+      <ul><h2 class="car-stats">Car Stats</h2>
+        <li>Engine: 3.8-liter Twin-Turbo Flat 6</li>
+        <li>HP: 690hp @ 7000rpm</li>
+        <li>Torque: 553 lb-ft @ 2500rpm</li>
+        <li>Price: $293,200</li>
+      </ul>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/PwAhAFyMwk8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  <!--Koenigsegg One:1-->
+    <div class="car-display">
+    <h1 class="car-name">Koenigsegg One:1</h1>
+      <img src="Images\k1.jpg" class="car k1" alt="Koenigsegg One:1">
+      <ul><h2 class="car-stats">Car Stats</h2>
+        <li>Engine: 5.0-liter Twin-Turbo V8</li>
+        <li>HP: 1341hp @ 7500rpm</li>
+        <li>Torque: 1010 lb-ft @ 6000rpm</li>
+        <li>Price: $2,850,000</li>
+      </ul>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/7X1z-1xwquk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  <!--Porsche 918 Spyder-->
+    <div class="car-display">
+      <h1 class="car-name">Porsche 918 Spyder</h1>
+      <img src="Images\918.jpg" class="car 918" alt="Porshe 918 Spyder">
+      <ul><h2 class="car-stats">Car Stats</h2>
+        <li>Engine: 4.6-liter V8 Hybrid</li>
+        <li>HP: 887hp @ 8600rpm</li>
+        <li>Torque: 944 lb-ft @ 5000rpm</li>
+        <li>Price: $845,000</li>
+      </ul>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/nSqzp3kdAm4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </section>
+</main>
+  <!--Below is the footer-->
+    <footer>
+      <h2 class="footer-text">Follow me for new additions!</h2>
+      <div class="social-icons">
+        <a href="#" target="_blank"><img src="Images/facebook.png" alt="facebook"></a>
+        <a href="#" target="_blank"><img src="Images/insta.png" alt="insta"></a>
+      </div>
+    </footer>
+<!--Link to Javascript-->
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<script src="action.js"></script>
+  </body>
+</html>
